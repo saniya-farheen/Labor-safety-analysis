@@ -7,7 +7,7 @@ IMAGE_PATH = "CollectedImage" #path to collect the images
 
 labels = ['Vest', 'Helmet','gloves'] # collecting diffrent images for diffrent folder
 
-number_of_images = 5
+number_of_images = 63
 #for collecting images from the folder
 for label in labels:
     img_path = os.path.join(IMAGE_PATH, label)
